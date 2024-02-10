@@ -1,6 +1,4 @@
 import 'package:bmi_calculator/home.dart';
-import 'package:bmi_calculator/theme.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 void main(){
@@ -26,7 +24,13 @@ class _MyAppState extends State<MyApp> {
 
       home: const Home(),
 
-      theme: Themes.lightTheme,
+      theme: ThemeData(
+
+        fontFamily: "Inter",
+
+        cardColor: Colors.black.withOpacity(0.8),
+
+      ),
 
     );
   }
