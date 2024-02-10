@@ -4,7 +4,7 @@ class Themes{
 
   static ThemeData lightTheme = ThemeData(
 
-    fontFamily: "Roboto",
+    fontFamily: "Inter",
 
     cardColor: Colors.black.withOpacity(0.8),
 
